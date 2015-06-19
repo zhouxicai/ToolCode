@@ -1,0 +1,4 @@
+﻿  源.cpp
+f:\ace+tao+ciao-6.3.2\ace3\标头.h(8): warning C4005: “_CRT_SECURE_NO_WARNINGS”: 宏重定义
+          命令行参数: 参见前面的“_CRT_SECURE_NO_WARNINGS”定义
+  ace3.vcxproj -> F:\ACE+TAO+CIAO-6.3.2\ace1\Debug\ace3.exe
