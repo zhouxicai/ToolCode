@@ -1,0 +1,4 @@
+﻿  LibEvent.cpp
+e:\libeventmultiserver\server\libevent.cpp(82): warning C4018: “<”: 有符号/无符号不匹配
+LibEvent.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+  Test.vcxproj -> E:\LibeventMultiServer\LibeventServer\Debug\Server.exe

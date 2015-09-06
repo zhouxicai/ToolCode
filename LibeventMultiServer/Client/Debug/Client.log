@@ -1,0 +1,6 @@
+﻿  stdafx.cpp
+  Client.cpp
+e:\libeventmultiserver\client\client.cpp(50): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+          c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1850) : 参见“inet_addr”的声明
+Client.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+  Client.vcxproj -> E:\LibeventMultiServer\LibeventServer\Debug\Client.exe
