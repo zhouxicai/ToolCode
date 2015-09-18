@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="fztest">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="fztest\ChangeType.cpp">
+      <Filter>fztest</Filter>
+    </ClCompile>
+    <ClCompile Include="fztest\class.cpp">
+      <Filter>fztest</Filter>
+    </ClCompile>
+    <ClCompile Include="fztest\ConsoleFontColor.cpp">
+      <Filter>fztest</Filter>
+    </ClCompile>
+    <ClCompile Include="fztest\define.cpp">
+      <Filter>fztest</Filter>
+    </ClCompile>
+    <ClCompile Include="fztest\dynamic.cpp">
+      <Filter>fztest</Filter>
+    </ClCompile>
+    <ClCompile Include="fztest\istringstream.cpp">
+      <Filter>fztest</Filter>
+    </ClCompile>
+    <ClCompile Include="fztest\mystrcpy.cpp">
+      <Filter>fztest</Filter>
+    </ClCompile>
+    <ClCompile Include="fztest\operator.cpp">
+      <Filter>fztest</Filter>
+    </ClCompile>
+    <ClCompile Include="fztest\pointer_size.cpp">
+      <Filter>fztest</Filter>
+    </ClCompile>
+    <ClCompile Include="fztest\resource_manage.cpp">
+      <Filter>fztest</Filter>
+    </ClCompile>
+    <ClCompile Include="fztest\sh_wk_tree.cpp">
+      <Filter>fztest</Filter>
+    </ClCompile>
+    <ClCompile Include="fztest\shared_ptr_weak_ptr.cpp">
+      <Filter>fztest</Filter>
+    </ClCompile>
+    <ClCompile Include="fztest\STL.cpp">
+      <Filter>fztest</Filter>
+    </ClCompile>
+    <ClCompile Include="fztest\stltest.cpp">
+      <Filter>fztest</Filter>
+    </ClCompile>
+    <ClCompile Include="fztest\Test.cpp">
+      <Filter>fztest</Filter>
+    </ClCompile>
+    <ClCompile Include="fztest\TMP.cpp">
+      <Filter>fztest</Filter>
+    </ClCompile>
+    <ClCompile Include="fztest\tmp1.cpp">
+      <Filter>fztest</Filter>
+    </ClCompile>
+    <ClCompile Include="fztest\tuple.cpp">
+      <Filter>fztest</Filter>
+    </ClCompile>
+    <ClCompile Include="fztest\weakptr.cpp">
+      <Filter>fztest</Filter>
+    </ClCompile>
+    <ClCompile Include="fztest\并发综合.cpp">
+      <Filter>fztest</Filter>
+    </ClCompile>
+    <ClCompile Include="fztest\插入排序.cpp">
+      <Filter>fztest</Filter>
+    </ClCompile>
+    <ClCompile Include="fztest\多态.cpp">
+      <Filter>fztest</Filter>
+    </ClCompile>
+    <ClCompile Include="fztest\函数指针.cpp">
+      <Filter>fztest</Filter>
+    </ClCompile>
+    <ClCompile Include="fztest\几何图形.cpp">
+      <Filter>fztest</Filter>
+    </ClCompile>
+    <ClCompile Include="fztest\建立线程.cpp">
+      <Filter>fztest</Filter>
+    </ClCompile>
+    <ClCompile Include="fztest\快速排序.cpp">
+      <Filter>fztest</Filter>
+    </ClCompile>
+    <ClCompile Include="fztest\快速排序2.cpp">
+      <Filter>fztest</Filter>
+    </ClCompile>
+    <ClCompile Include="fztest\快速排序3.cpp">
+      <Filter>fztest</Filter>
+    </ClCompile>
+    <ClCompile Include="fztest\冒泡.cpp">
+      <Filter>fztest</Filter>
+    </ClCompile>
+    <ClCompile Include="fztest\排序.cpp">
+      <Filter>fztest</Filter>
+    </ClCompile>
+    <ClCompile Include="fztest\弱指针.cpp">
+      <Filter>fztest</Filter>
+    </ClCompile>
+    <ClCompile Include="fztest\生命游戏.cpp">
+      <Filter>fztest</Filter>
+    </ClCompile>
+    <ClCompile Include="fztest\线程函数.cpp">
+      <Filter>fztest</Filter>
+    </ClCompile>
+    <ClCompile Include="fztest\异常.cpp">
+      <Filter>fztest</Filter>
+    </ClCompile>
+    <ClCompile Include="fztest\遮盖.cpp">
+      <Filter>fztest</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="fztest\互斥锁.h">
+      <Filter>fztest</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
