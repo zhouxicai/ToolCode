@@ -35,5 +35,8 @@
     <ClInclude Include="..\code\NewArrayCpp.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="..\code\CopyMulitiArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

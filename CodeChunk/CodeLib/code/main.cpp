@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include "CallBack.h"
 #include "NewArray.h"
+#include "CopyMulitiArray.h"
 
 void say_hello(void *str)
 {
@@ -30,12 +31,14 @@ int main(void)
 
 int main(void)
 {
-	int row,column;
-	printf("请输入二维数组的行数列值");
-	scanf("%d,%d", &row,&column);
-	//TestNewArray();
-	TestNewArray2(row,column);
+	//int row,column;
+	//printf("请输入二维数组的行数列值");
+	//scanf("%d,%d", &row,&column);
 
+	//TestNewArray();
+	//TestNewArray2(row,column);
+
+	CopyMulitiArray(5, 4, 0, 0, 12, 10);
 	while(1);
 	return 0;
 }
