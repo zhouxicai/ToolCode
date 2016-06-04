@@ -3,13 +3,15 @@
 
 const int MAX_X=16;
 const int MAX_Y=16;
-int map[MAX_X][MAX_Y];
+const int LAYER = 3;
+int map[LAYER][MAX_X][MAX_Y];
 
 void InitTestDada()
 {
-	for (int i = 0; i < MAX_X; i++)
-		for (int j = 0; j < MAX_Y; j++)
-			map[i][j] = i+j;
+	for (int l = 0; l < LAYER; l++)
+		for (int i = 0; i < MAX_X; i++)
+			for (int j = 0; j < MAX_Y; j++)
+				map[l][i][j] = l + i + j;
 }
 
 
@@ -18,10 +20,14 @@ void CopyMulitiArray(int begin_x,int begin_y,int end_x,int end_y,int target_x,in
 	InitTestDada();
 
 #if 1
-	for (int i = 0; i < MAX_X; i++)
+	for (int l = 0; l < LAYER; l++)
 	{
-		for (int j = 0; j < MAX_Y; j++)
-			printf("%3d", map[i][j]);
+		for (int i = 0; i < MAX_X; i++)
+		{
+			for (int j = 0; j < MAX_Y; j++)
+				printf("%3d", map[l][i][j]);
+			putchar('\n');
+		}
 		putchar('\n');
 	}
 #endif
@@ -45,36 +51,46 @@ void CopyMulitiArray(int begin_x,int begin_y,int end_x,int end_y,int target_x,in
 
 	//Copy data
 	std::vector<int> vecTmp;
-	for (int i = begin_x; i < end_x; i++)
-		for (int j = begin_y; j < end_y; j++)
-			vecTmp.push_back(map[i][j]);
+	for (int l = 0; l < LAYER;l++)
+		for (int i = begin_x; i < end_x; i++)
+			for (int j = begin_y; j < end_y; j++)
+				vecTmp.push_back(map[l][i][j]);
 
 	int k=0;
-	for (int i = target_x; i < target_end_x; i++)
+	for (int l = 0; l < LAYER; l++)
 	{
-		for (int j = target_y; j < target_end_y; j++)
+		for (int i = target_x; i < target_end_x; i++)
 		{
-			if (i >= MAX_X)
+			for (int j = target_y; j < target_end_y; j++)
 			{
-				k++; continue;
-			}
-			if (j >= MAX_Y)
-			{
-				k++; continue;
-			}
+				if (i >= MAX_X)
+				{
+					k++; continue;
+				}
+				if (j >= MAX_Y)
+				{
+					k++; continue;
+				}
 
-			map[i][j] = vecTmp[k];
+				map[l][i][j] = vecTmp[k];
 
-			k++;
+				k++;
+			}
 		}
 	}
 
 #if 1
+	printf("=========================================");
 	putchar('\n');
-	for (int i = 0; i < MAX_X; i++)
+	putchar('\n');
+	for (int l = 0; l < LAYER; l++)
 	{
-		for (int j = 0; j < MAX_Y; j++)
-			printf("%3d", map[i][j]);
+		for (int i = 0; i < MAX_X; i++)
+		{
+			for (int j = 0; j < MAX_Y; j++)
+				printf("%3d", map[l][i][j]);
+			putchar('\n');
+		}
 		putchar('\n');
 	}
 #endif

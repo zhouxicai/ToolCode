@@ -1,5 +1,7 @@
 #include <iostream>
 using namespace std;
+
+
 void QuickSort(int arr[], int _left, int _right);
 void TestQuickSort()
 {
@@ -11,7 +13,7 @@ void TestQuickSort()
 	QuickSort(aa, 0, 49);
 	for(int i = 0 ; i<50; i++)
 	{
-		cout<<aa[i]<<endl;
+		cout<<aa[i]<<" ";
 	}
 	while(1);
 }
@@ -50,7 +52,9 @@ void QuickSort(int arr[], int _left, int _right)
 
 ////////////////////////////////////////////////////////////////////////
 int nMax = 10;
-int dwGuideInfo[10] = { 21, 56, 3, 56, 76, 5, 3, 34, 12, 8 };
+int g_GuideInfo[10] = { 21, 56, 3, 56, 76, 5, 3, 34, 12, 8 };
+
+//Ã°ÅÝÅÅÐò
 void Bubbing(int arr[],int lengh)
 {
 	int iTemp = 0;

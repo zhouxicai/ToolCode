@@ -41,5 +41,14 @@
     <ClInclude Include="..\code\MySort.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="..\code\Map.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\FilesCPP.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\code\FilesC.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

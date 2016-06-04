@@ -3,6 +3,9 @@
 #include "CallBack.h"
 #include "NewArray.h"
 #include "CopyMulitiArray.h"
+#include "MySort.h"
+#include "FilesCPP.h"
+#include "FilesC.h"
 
 void say_hello(void *str)
 {
@@ -38,7 +41,12 @@ int main(void)
 	//TestNewArray();
 	//TestNewArray2(row,column);
 
-	CopyMulitiArray(5, 4, 0, 0, 12, 10);
+	//CopyMulitiArray(5, 4, 0, 0, 12, 10);
+
+	//Bubbing(g_GuideInfo, 10);
+	//TestQuickSort();
+
+
 	while(1);
 	return 0;
 }
