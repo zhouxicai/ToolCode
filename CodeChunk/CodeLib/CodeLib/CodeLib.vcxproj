@@ -86,6 +86,7 @@
     <ClInclude Include="..\code\FilesC.h" />
     <ClInclude Include="..\code\FilesCPP.h" />
     <ClInclude Include="..\code\Map.h" />
+    <ClInclude Include="..\code\MemStrCopy.h" />
     <ClInclude Include="..\code\MySort.h" />
     <ClInclude Include="..\code\NewArray.h" />
     <ClInclude Include="..\code\NewArrayCpp.h" />
