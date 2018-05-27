@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7C548375-FDBC-42F7-B976-749391C8527E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>MiniTank</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>D:\项目\dx8sdk\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\项目\dx8sdk\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <LibraryPath>D:\项目\dx8sdk\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\项目\dx8sdk\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>ddraw.lib;dinput8.lib;dxguid.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>ddraw.lib;dxguid.lib;dinput8.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Ddutil.h" />
+    <ClInclude Include="define.h" />
+    <ClInclude Include="DirectXAudio.h" />
+    <ClInclude Include="DXInput.h" />
+    <ClInclude Include="FileOperate.h" />
+    <ClInclude Include="GameGUI.h" />
+    <ClInclude Include="GDI.h" />
+    <ClInclude Include="graph.h" />
+    <ClInclude Include="IME.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="MapEdt.h" />
+    <ClInclude Include="netbase\BaseType.h" />
+    <ClInclude Include="netbase\NetManager.h" />
+    <ClInclude Include="netbase\Packet.h" />
+    <ClInclude Include="netbase\PacketDefine.h" />
+    <ClInclude Include="netbase\PacketFactory.h" />
+    <ClInclude Include="netbase\PacketFactoryManager.h" />
+    <ClInclude Include="netbase\PacketStruct.h" />
+    <ClInclude Include="netbase\ServerSocket.h" />
+    <ClInclude Include="netbase\Socket.h" />
+    <ClInclude Include="netbase\SocketAPI.h" />
+    <ClInclude Include="netbase\SocketBillingInputStream.h" />
+    <ClInclude Include="netbase\SocketBillingOutputStream.h" />
+    <ClInclude Include="netbase\SocketInputStream.h" />
+    <ClInclude Include="netbase\SocketOutputStream.h" />
+    <ClInclude Include="ObjectPool.h" />
+    <ClInclude Include="packets\CSPlayerCoordinate.h" />
+    <ClInclude Include="packets\SCClientId.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="SpecialEfficiency.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="TextFont.h" />
+    <ClInclude Include="TimeCount.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Ddutil.cpp" />
+    <ClCompile Include="DirectXAudio.cpp" />
+    <ClCompile Include="DXInput.cpp" />
+    <ClCompile Include="FileOperate.cpp" />
+    <ClCompile Include="GameGUI.cpp" />
+    <ClCompile Include="graph.cpp" />
+    <ClCompile Include="IME.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MapEdt.cpp" />
+    <ClCompile Include="netbase\NetManager.cpp" />
+    <ClCompile Include="netbase\Packet.cpp" />
+    <ClCompile Include="netbase\PacketFactoryManager.cpp" />
+    <ClCompile Include="netbase\PacketStruct.cpp" />
+    <ClCompile Include="netbase\ServerSocket.cpp" />
+    <ClCompile Include="netbase\Socket.cpp" />
+    <ClCompile Include="netbase\SocketAPI.cpp" />
+    <ClCompile Include="netbase\SocketBillingInputStream.cpp" />
+    <ClCompile Include="netbase\SocketBillingOutputStream.cpp" />
+    <ClCompile Include="netbase\SocketInputStream.cpp" />
+    <ClCompile Include="netbase\SocketOutputStream.cpp" />
+    <ClCompile Include="ObjectPool.cpp" />
+    <ClCompile Include="packets\CSPlayerCoordinate.cpp" />
+    <ClCompile Include="packets\CSPlayerCoordinateHandler.cpp" />
+    <ClCompile Include="packets\SCClientId.cpp" />
+    <ClCompile Include="packets\SCClientIdHandler.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="SpecialEfficiency.cpp" />
+    <ClCompile Include="TextFont.cpp" />
+    <ClCompile Include="TimeCount.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="strmiids.lib" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

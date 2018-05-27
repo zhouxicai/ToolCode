@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MapEdit", "MapEdit\MapEdit.vcxproj", "{02F8E8C2-AFDF-4E39-95E3-2386B55568CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02F8E8C2-AFDF-4E39-95E3-2386B55568CE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{02F8E8C2-AFDF-4E39-95E3-2386B55568CE}.Debug|Win32.Build.0 = Debug|Win32
+		{02F8E8C2-AFDF-4E39-95E3-2386B55568CE}.Release|Win32.ActiveCfg = Release|Win32
+		{02F8E8C2-AFDF-4E39-95E3-2386B55568CE}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

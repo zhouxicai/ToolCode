@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="NetWork">
+      <UniqueIdentifier>{5a0fb06d-d6b1-4f9b-bca0-31ee3871246d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audio">
+      <UniqueIdentifier>{ee3981b8-3bc8-44c3-a941-0c7cabf97335}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graph">
+      <UniqueIdentifier>{0ca34277-a437-46c7-9b36-dba501413d85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map">
+      <UniqueIdentifier>{2e092fcd-dd61-41f7-a9d5-1926ae17013d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{c30b296c-ffb8-485f-9e84-9cc2f073e710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{5330d5bb-3b13-4296-985e-b3c0353a12d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{ddb02691-de66-44fe-9c57-cdc583240ba9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Special">
+      <UniqueIdentifier>{7d88b3e5-01e4-4282-ad8e-74bd1794a353}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tool">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="object">
+      <UniqueIdentifier>{dea36d3f-21fd-430b-aa7c-fef7e79aed08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="object\BaseClass">
+      <UniqueIdentifier>{0cfee57e-e2dc-4c00-b889-cdebeca73f9d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="InorganicBase.h">
+      <Filter>object\BaseClass</Filter>
+    </ClInclude>
+    <ClInclude Include="OrganismsBase.h">
+      <Filter>object\BaseClass</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXAudio.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Core_Sound.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Core_Global.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="graph.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="GDI.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="DXInput.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="GameGUI.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="IME.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="MapEdt.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="TextFont.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Ddutil.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="SpecialEfficiency.h">
+      <Filter>Special</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="FileOperate.h">
+      <Filter>Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeCount.h">
+      <Filter>Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectPool.h">
+      <Filter>Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="MapDefine.h">
+      <Filter>object\BaseClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Snow.h">
+      <Filter>Special</Filter>
+    </ClInclude>
+    <ClInclude Include="SpecialDefine.h">
+      <Filter>Special</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork.h">
+      <Filter>NetWork</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>object</Filter>
+    </ClInclude>
+    <ClInclude Include="Spirit.h">
+      <Filter>object</Filter>
+    </ClInclude>
+    <ClInclude Include="Gun.h">
+      <Filter>object</Filter>
+    </ClInclude>
+    <ClInclude Include="NetWork\PacketManage.h">
+      <Filter>NetWork</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketDefine.h">
+      <Filter>NetWork</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FileOperate.cpp">
+      <Filter>Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectPool.cpp">
+      <Filter>Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeCount.cpp">
+      <Filter>Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectXAudio.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Core_Sound.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="graph.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Ddutil.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="DXInput.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="IME.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="GameGUI.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="MapEdt.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="TextFont.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Snow.cpp">
+      <Filter>Special</Filter>
+    </ClCompile>
+    <ClCompile Include="Gamma.cpp">
+      <Filter>Special</Filter>
+    </ClCompile>
+    <ClCompile Include="SpecialEfficiency.cpp">
+      <Filter>Special</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork.cpp">
+      <Filter>NetWork</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="Spirit.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="Gun.cpp">
+      <Filter>object</Filter>
+    </ClCompile>
+    <ClCompile Include="NetWork\PacketManage.cpp">
+      <Filter>NetWork</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="strmiids.lib">
+      <Filter>Audio</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

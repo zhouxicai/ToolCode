@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{23a7fdd8-8c68-4b4d-a9f2-98dc24385389}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectDraw">
+      <UniqueIdentifier>{cfbacb3e-eac5-4fab-90a0-3ce29aebf1c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="ScriptLua">
+      <UniqueIdentifier>{b79fd108-9b71-4dfe-bfae-b4c92a110cc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetWork">
+      <UniqueIdentifier>{86a1177a-71b1-4e0f-a66b-ad34faed5b4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetWork\netbase">
+      <UniqueIdentifier>{3fe6e14f-fcfa-4957-b972-052086058191}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetWork\packets">
+      <UniqueIdentifier>{f089bdb4-ef38-4607-be1f-33c62f6392f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SpecialEfficiency">
+      <UniqueIdentifier>{23e51541-4774-4f45-a451-66dccc78e979}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audio">
+      <UniqueIdentifier>{da094f74-7b9c-4f0e-89bc-657aa6da34c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TOOL">
+      <UniqueIdentifier>{dbacdbc9-cdbd-4c1f-996f-064d5d6ccc02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{a6f74422-24d4-4ee4-9895-346bf0c90689}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{b9830684-79fb-42a6-82ba-86e0b1488118}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map">
+      <UniqueIdentifier>{f34963e1-699f-4f13-b002-74aa611f622a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lua">
+      <UniqueIdentifier>{58bd63dc-ee13-4983-ab2d-9ea804e7145d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="MapEdt.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="GameGUI.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="graph.h">
+      <Filter>DirectDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="Ddutil.h">
+      <Filter>DirectDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="DXInput.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeCount.h">
+      <Filter>TOOL</Filter>
+    </ClInclude>
+    <ClInclude Include="IME.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="netbase\BaseType.h">
+      <Filter>NetWork\netbase</Filter>
+    </ClInclude>
+    <ClInclude Include="netbase\NetManager.h">
+      <Filter>NetWork\netbase</Filter>
+    </ClInclude>
+    <ClInclude Include="netbase\Packet.h">
+      <Filter>NetWork\netbase</Filter>
+    </ClInclude>
+    <ClInclude Include="netbase\PacketDefine.h">
+      <Filter>NetWork\netbase</Filter>
+    </ClInclude>
+    <ClInclude Include="netbase\PacketFactory.h">
+      <Filter>NetWork\netbase</Filter>
+    </ClInclude>
+    <ClInclude Include="netbase\PacketFactoryManager.h">
+      <Filter>NetWork\netbase</Filter>
+    </ClInclude>
+    <ClInclude Include="netbase\PacketStruct.h">
+      <Filter>NetWork\netbase</Filter>
+    </ClInclude>
+    <ClInclude Include="netbase\ServerSocket.h">
+      <Filter>NetWork\netbase</Filter>
+    </ClInclude>
+    <ClInclude Include="netbase\Socket.h">
+      <Filter>NetWork\netbase</Filter>
+    </ClInclude>
+    <ClInclude Include="netbase\SocketAPI.h">
+      <Filter>NetWork\netbase</Filter>
+    </ClInclude>
+    <ClInclude Include="netbase\SocketBillingInputStream.h">
+      <Filter>NetWork\netbase</Filter>
+    </ClInclude>
+    <ClInclude Include="netbase\SocketBillingOutputStream.h">
+      <Filter>NetWork\netbase</Filter>
+    </ClInclude>
+    <ClInclude Include="netbase\SocketInputStream.h">
+      <Filter>NetWork\netbase</Filter>
+    </ClInclude>
+    <ClInclude Include="netbase\SocketOutputStream.h">
+      <Filter>NetWork\netbase</Filter>
+    </ClInclude>
+    <ClInclude Include="packets\SCClientId.h">
+      <Filter>NetWork\packets</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="GDI.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="packets\CSPlayerCoordinate.h">
+      <Filter>NetWork\packets</Filter>
+    </ClInclude>
+    <ClInclude Include="FileOperate.h">
+      <Filter>TOOL</Filter>
+    </ClInclude>
+    <ClInclude Include="SpecialEfficiency.h">
+      <Filter>SpecialEfficiency</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectPool.h">
+      <Filter>TOOL</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXAudio.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="TextFont.h">
+      <Filter>TOOL</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MapEdt.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="GameGUI.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="graph.cpp">
+      <Filter>DirectDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="Ddutil.cpp">
+      <Filter>DirectDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="DXInput.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeCount.cpp">
+      <Filter>TOOL</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="IME.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="netbase\NetManager.cpp">
+      <Filter>NetWork\netbase</Filter>
+    </ClCompile>
+    <ClCompile Include="netbase\Packet.cpp">
+      <Filter>NetWork\netbase</Filter>
+    </ClCompile>
+    <ClCompile Include="netbase\PacketFactoryManager.cpp">
+      <Filter>NetWork\netbase</Filter>
+    </ClCompile>
+    <ClCompile Include="netbase\PacketStruct.cpp">
+      <Filter>NetWork\netbase</Filter>
+    </ClCompile>
+    <ClCompile Include="netbase\ServerSocket.cpp">
+      <Filter>NetWork\netbase</Filter>
+    </ClCompile>
+    <ClCompile Include="netbase\Socket.cpp">
+      <Filter>NetWork\netbase</Filter>
+    </ClCompile>
+    <ClCompile Include="netbase\SocketAPI.cpp">
+      <Filter>NetWork\netbase</Filter>
+    </ClCompile>
+    <ClCompile Include="netbase\SocketBillingInputStream.cpp">
+      <Filter>NetWork\netbase</Filter>
+    </ClCompile>
+    <ClCompile Include="netbase\SocketBillingOutputStream.cpp">
+      <Filter>NetWork\netbase</Filter>
+    </ClCompile>
+    <ClCompile Include="netbase\SocketInputStream.cpp">
+      <Filter>NetWork\netbase</Filter>
+    </ClCompile>
+    <ClCompile Include="netbase\SocketOutputStream.cpp">
+      <Filter>NetWork\netbase</Filter>
+    </ClCompile>
+    <ClCompile Include="packets\SCClientId.cpp">
+      <Filter>NetWork\packets</Filter>
+    </ClCompile>
+    <ClCompile Include="packets\SCClientIdHandler.cpp">
+      <Filter>NetWork\packets</Filter>
+    </ClCompile>
+    <ClCompile Include="packets\CSPlayerCoordinate.cpp">
+      <Filter>NetWork\packets</Filter>
+    </ClCompile>
+    <ClCompile Include="packets\CSPlayerCoordinateHandler.cpp">
+      <Filter>NetWork\packets</Filter>
+    </ClCompile>
+    <ClCompile Include="FileOperate.cpp">
+      <Filter>TOOL</Filter>
+    </ClCompile>
+    <ClCompile Include="SpecialEfficiency.cpp">
+      <Filter>SpecialEfficiency</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectPool.cpp">
+      <Filter>TOOL</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectXAudio.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="TextFont.cpp">
+      <Filter>TOOL</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="strmiids.lib">
+      <Filter>Audio</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
