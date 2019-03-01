@@ -92,7 +92,7 @@ static void EnumTableItem(lua_State *L, const char* lpszTableName)
 	lua_pop(L, 1);
 }
 
-#if 1
+#if 0
 int main(int argc, char* argv[])
 {
 	lua_State *L = luaL_newstate();
@@ -128,7 +128,7 @@ int main(int argc, char* argv[])
 #endif
 
 
-#if 0
+#if 1
 void main()
 {
 
@@ -165,6 +165,10 @@ void main()
 	lua_getglobal(L, "str");
 	string str = lua_tostring(L, -1);
 	cout << "str = " << str.c_str() << endl;        //str = I am so cool~  
+
+	lua_getglobal(L, "num");
+	int num = lua_tointeger(L, -1);
+	cout << "num = " << num << endl;   
 
 	//5.¶ÁÈ¡table  
 	lua_getglobal(L, "tbl");

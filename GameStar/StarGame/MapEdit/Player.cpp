@@ -118,7 +118,7 @@ void CPlayer::ShootLoop(short collide)
 
 CPlayer * CPlayerManager::GetPlayer(int player_id)
 {
-	int i=0;
+	unsigned int i=0;
 	for(;i<m_PlayerPool.size();i++)
 	{
 		if(m_PlayerPool.at(i)->GetPlayerID() == player_id)
