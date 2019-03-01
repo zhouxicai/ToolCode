@@ -40,8 +40,8 @@ int main(void)
 
 	//TestNewArray();
 	//TestNewArray2(row,column);
-
-	//CopyMulitiArray(5, 4, 0, 0, 12, 10);
+	InitTestDada(16,16,3);
+	CopyMulitiArray(5, 4, 0, 0, 6, 8, 16, 16, 3);
 
 	//Bubbing(g_GuideInfo, 10);
 	//TestQuickSort();
